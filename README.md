@@ -1,12 +1,29 @@
-# React + Vite
+# Digital Agency Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, responsive digital agency website built using **React** and **Tailwind CSS**. The site showcases a hero section, company logos, services, insights, projects, and a professional footer — designed to highlight an agency’s expertise and recent work.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Animated hero section with layered sparkles
+- ✅ Responsive service showcase with gradients and icons
+- ✅ Project “Work” section with image grid and call-to-action buttons
+- ✅ Insight list section with stylized numbering and link arrows
+- ✅ Clean, minimal footer with social links and legal links
+- ✅ Fully responsive and mobile-friendly
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js** – Frontend library
+- **Tailwind CSS** – Utility-first CSS framework
+- **React Icons** – For lightweight icon integration
+
+## 📁 Folder Structure
+├── assets/ # Images and logos
+├── components/ # Reusable React components
+│ ├── Hero.jsx
+│ ├── Service.jsx
+│ ├── Insights.jsx
+│ ├── Work.jsx
+│ └── Footer.jsx
+├── App.jsx # Main component
+└── index.js # Entry point
